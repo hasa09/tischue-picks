@@ -45,6 +45,12 @@ h1 { font: 800 clamp(34px, 9vw, 48px)/1.02 var(--display); margin: 0; letter-spa
 .small { font-size: 13px; color: var(--muted); margin: 0; }
 footer { font-size: 13px; color: var(--muted); display: grid; gap: 6px; }
 footer a { color: inherit; }
+.pick:target { outline: 3px solid var(--accent); outline-offset: 2px; }
+.look { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 15px; }
+.look li { display: flex; gap: 8px; align-items: baseline; }
+.look li::before { content: "✓"; font-weight: 800; color: var(--fg); }
+.dest { font-size: 13px; color: var(--muted); margin: 0; }
+.jump { font-size: 13px; color: var(--muted); margin: 0; font-variant-numeric: tabular-nums; }
 </style>
 </head>
 <body>
@@ -58,40 +64,137 @@ footer a { color: inherit; }
   </header>
 
   <ol class="picks">
-    <li class="pick" id="pick-05">
+    <li class="pick" id="12">
+      <span id="pick-12"></span>
+      <div class="top"><span class="num">#12</span><h2>Electric spin scrubber</h2></div>
+      <p class="why">A cordless, rechargeable brush that spins for you, with swappable heads for tiles, grout and the bath.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Swappable heads: soft + stiff</li><li>Long handle for bath and floor</li><li>Rechargeable, check run time</li></ul>
+      <p class="fact">Use a soft head on glass and wipe the screen dry after each shower so soap scum builds up more slowly.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=electric+spin+scrubber+cordless&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#12</p>
+    </li>
+    <li class="pick" id="11">
+      <span id="pick-11"></span>
+      <div class="top"><span class="num">#11</span><h2>Cable organiser kit</h2></div>
+      <p class="why">Reusable ties, a sleeve and stick-on clips gather loose leads into one neat run behind your desk.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Reusable hook-and-loop ties</li><li>Sleeve wide enough for your leads</li><li>Plenty of adhesive clips</li></ul>
+      <p class="fact">Label each plug with masking tape and check leads for wear before you bundle them.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=cable+management+kit&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#11</p>
+    </li>
+    <li class="pick" id="10">
+      <span id="pick-10"></span>
+      <div class="top"><span class="num">#10</span><h2>Gravy fat separator</h2></div>
+      <p class="why">A jug that pours meat juices from the bottom, leaving the floating fat behind for smoother gravy.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Spout or plug low on the jug</li><li>Clear sides with measure marks</li><li>Heat-resistant, with a strainer lid</li></ul>
+      <p class="fact">Cool leftover fat in a jar, then bin it. Never pour it down the sink.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=gravy+fat+separator+jug&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#10</p>
+    </li>
+    <li class="pick" id="09">
+      <span id="pick-09"></span>
+      <div class="top"><span class="num">#09</span><h2>Reusable oven liner</h2></div>
+      <p class="why">A cut-to-size, wipe-clean sheet that sits on a shelf under your roast and catches the drips.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Cut-to-size reusable sheet</li><li>Max temp on listing suits you</li><li>Wipe-clean non-stick surface</li></ul>
+      <p class="fact">Once the oven is off, carefully wipe fresh spills while it&#x27;s still warm.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=reusable+oven+liner&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#09</p>
+    </li>
+    <li class="pick" id="08">
+      <span id="pick-08"></span>
+      <div class="top"><span class="num">#08</span><h2>Laptop stand</h2></div>
+      <p class="why">Raises your laptop screen towards eye level. Many fold flat when you&#x27;re done.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Height adjusts to eye level</li><li>Sturdy base with non-slip pads</li><li>Folds flat for your bag</li></ul>
+      <p class="fact">Check the top of your screen is level with your eyes, about an arm&#x27;s length away, and use a separate keyboard and mouse.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=adjustable+laptop+stand&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#08</p>
+    </li>
+    <li class="pick" id="07">
+      <span id="pick-07"></span>
+      <div class="top"><span class="num">#07</span><h2>Kettle scale catcher</h2></div>
+      <p class="why">A steel scale catcher sits in the kettle and helps collect limescale flakes between descales.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Stainless steel mesh or coil</li><li>Fits flat on your kettle base</li><li>Easy to rinse and reuse</li></ul>
+      <p class="fact">Descale: boil half full, unplug, add citric acid, wait 20 min, pour out, rinse twice.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=kettle+limescale+catcher&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#07</p>
+    </li>
+    <li class="pick" id="06">
+      <span id="pick-06"></span>
+      <div class="top"><span class="num">#06</span><h2>Oil sprayer bottle</h2></div>
+      <p class="why">A refillable bottle that mists your own oil in a thin coat instead of pouring a glug.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Fine mist, not a jet</li><li>Glass bottle, easy to refill</li><li>Nozzle that comes apart to clean</li></ul>
+      <p class="fact">No sprayer? Measure oil with a teaspoon, as the NHS suggests.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=oil+sprayer+for+cooking&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#06</p>
+    </li>
+    <li class="pick" id="05">
+      <span id="pick-05"></span>
       <div class="top"><span class="num">#05</span><h2>Shower drain hair catcher</h2></div>
       <p class="why">Sits over the plughole and catches hair before it goes down, so the shower keeps draining.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Fits your plughole size</li><li>Lifts out easily to empty</li><li>Easy-rinse steel or silicone</li></ul>
       <p class="fact">Measure your plughole before you buy.</p>
-      <a class="btn" href="https://www.amazon.co.uk/s?k=shower+drain+hair+catcher&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See hair catchers on Amazon UK</a>
-      <p class="small">Check current price and reviews on Amazon.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=shower+drain+hair+catcher&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#05</p>
     </li>
-    <li class="pick" id="pick-04">
+    <li class="pick" id="04">
+      <span id="pick-04"></span>
       <div class="top"><span class="num">#04</span><h2>Handheld milk frother</h2></div>
-      <p class="why">A battery whisk for café-style foam at home. It doesn't heat milk, so warm it first (hot, not boiling).</p>
+      <p class="why">A battery whisk for café-style foam at home. It doesn&#x27;t heat milk, so warm it first (hot, not boiling).</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Handheld, battery or USB-charged</li><li>Stainless steel whisk head</li><li>Comes with a stand to dry</li></ul>
       <p class="fact">Using oat milk? Pick a barista version.</p>
-      <a class="btn" href="https://www.amazon.co.uk/s?k=handheld+milk+frother+battery+whisk&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See milk frothers on Amazon UK</a>
-      <p class="small">Check current price and reviews on Amazon.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=handheld+milk+frother+battery+whisk&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#04</p>
     </li>
-    <li class="pick" id="pick-03">
+    <li class="pick" id="03">
+      <span id="pick-03"></span>
       <div class="top"><span class="num">#03</span><h2>Window squeegee</h2></div>
       <p class="why">Clears condensation off the glass in seconds, so less ends up on your sill.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Blade wide enough for your panes</li><li>Soft rubber blade that won&#x27;t scratch</li><li>Easy to rinse and dry</li></ul>
       <p class="fact">Pull top to bottom, towel on the sill, then open the trickle vent.</p>
-      <a class="btn" href="https://www.amazon.co.uk/s?k=window+squeegee+condensation&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See squeegees on Amazon UK</a>
-      <p class="small">Check current price and reviews on Amazon.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=window+squeegee+condensation&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#03</p>
     </li>
-    <li class="pick" id="pick-02">
+    <li class="pick" id="02">
+      <span id="pick-02"></span>
       <div class="top"><span class="num">#02</span><h2>Instant-read meat thermometer</h2></div>
       <p class="why">Gives you a number in seconds instead of guessing by colour or juices.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Instant-read: a number in seconds</li><li>Thin probe for the thickest part</li><li>Clear, easy-to-read display</li></ul>
       <p class="fact">Probe the thickest part, away from the bone. In iced water it should read about 0°C.</p>
-      <a class="btn" href="https://www.amazon.co.uk/s?k=instant+read+meat+thermometer+digital&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See meat thermometers on Amazon UK</a>
-      <p class="small">Check current price and reviews on Amazon.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=instant+read+meat+thermometer+digital&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#02</p>
     </li>
-    <li class="pick" id="pick-01">
+    <li class="pick" id="01">
+      <span id="pick-01"></span>
       <div class="top"><span class="num">#01</span><h2>Monitor light bar</h2></div>
-      <p class="why">Clips on top of your screen and lights the desk, so the light doesn't bounce off the display into your eyes.</p>
+      <p class="why">Clips on top of your screen and lights the desk, so less light bounces off the display into your eyes.</p>
+      <p class="small"><strong>What to look for</strong></p>
+      <ul class="look"><li>Clips on without covering the screen</li><li>Adjustable brightness and warmth</li><li>USB-powered from your monitor or laptop</li></ul>
       <p class="fact">Look for adjustable warmth, so you can go warmer in the evening.</p>
-      <a class="btn" href="https://www.amazon.co.uk/s?k=monitor+light+bar&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See light bars on Amazon UK</a>
-      <p class="small">Check current price and reviews on Amazon.</p>
+      <a class="btn" href="https://www.amazon.co.uk/s?k=monitor+light+bar&amp;tag=tischueshop-21" rel="sponsored noopener" target="_blank">See options on Amazon UK</a>
+      <p class="dest">Goes to Amazon UK. Check current price and reviews there.</p>
+      <p class="jump">picks.tischue.com/#01</p>
     </li>
   </ol>
 
